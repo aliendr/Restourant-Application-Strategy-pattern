@@ -1,5 +1,6 @@
 package oreder.type;
 
 public interface OrderType {
-    void wrapOrder();
+
+    void wrapOrder(double price);
 }

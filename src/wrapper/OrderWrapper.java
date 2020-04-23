@@ -20,9 +20,7 @@ public class OrderWrapper {
             m.prepare();
             totalPrice += m.getCost();
         }
-        orderType.wrapOrder();
-
-        System.out.println(totalPrice + " dollars, please. Cash or by card?");
+        orderType.wrapOrder(totalPrice);
     }
 
 
