@@ -1,7 +1,5 @@
 package meal;
 
-import meal.Meal;
-
 public class Poke extends Meal {
     public Poke(String name, double cost) {
         this.setName(name);
