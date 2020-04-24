@@ -23,4 +23,8 @@ public class Reservation implements OrderType {
     public void setTime(String time) {
         this.time = time;
     }
+
+    public double getAdditionalCosts() {
+        return additionalCosts;
+    }
 }

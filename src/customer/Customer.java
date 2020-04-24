@@ -19,4 +19,20 @@ public class Customer {
         OrderWrapper orderWrapper = new OrderWrapper(this.orderType, this.meals);
         orderWrapper.executeOrder();
     }
+
+    public void setOrderType(OrderType orderType) {
+        this.orderType = orderType;
+    }
+
+    public OrderType getOrderType() {
+        return orderType;
+    }
+
+    public void setMeals(ArrayList<Meal> meals) {
+        this.meals = meals;
+    }
+
+    public ArrayList<Meal> getMeals() {
+        return meals;
+    }
 }

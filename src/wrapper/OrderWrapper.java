@@ -8,11 +8,12 @@ import java.util.ArrayList;
 public class OrderWrapper {
     private OrderType orderType;
     private ArrayList<Meal> mealList;
-    private double totalPrice = 0;
+    private double totalPrice;
 
     public OrderWrapper(OrderType orderType, ArrayList<Meal> mealList){
         this.mealList = mealList;
         this.orderType = orderType;
+        this.totalPrice = 0;
     }
 
     public void executeOrder(){

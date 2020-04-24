@@ -24,4 +24,8 @@ public class Delivery implements OrderType {
     public void setAddress(String address) {
         this.address = address;
     }
+
+    public double getAdditionalCosts() {
+        return additionalCosts;
+    }
 }
